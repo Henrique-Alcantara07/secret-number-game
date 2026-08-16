@@ -2,7 +2,7 @@
 
 🎯 Jogo do Número Secreto
 
-Um jogo simples de adivinhação onde o usuário precisa descobrir um número secreto sorteado entre 1 e 50, recebendo dicas se o número informado é maior ou menor que o número correto. O jogo também conta com narração por voz utilizando a Web Speech API.
+Um jogo simples de adivinhação onde o usuário precisa descobrir um número secreto sorteado entre 1 e 100, recebendo dicas se o número informado é maior ou menor que o número correto. O jogo também conta com narração por voz utilizando a Web Speech API.
 
 📋 Sobre o projeto
 
@@ -11,7 +11,7 @@ Este projeto foi desenvolvido com base no curso da Alura. A lógica em JavaScrip
 
 ✨ Funcionalidades
 
-Sorteio aleatório de um número secreto entre 1 e 50 (sem repetição até todos os números terem sido sorteados)
+Sorteio aleatório de um número secreto entre 1 e 100 (sem repetição até todos os números terem sido sorteados)
 Verificação do palpite do usuário, com dicas de "maior" ou "menor"
 Contador de tentativas até o acerto
 Narração por voz das mensagens exibidas na tela (Web Speech API)
@@ -21,7 +21,7 @@ Layout responsivo
 
 🕹️ Como jogar
 
-Digite um número entre 1 e 50 no campo de input
+Digite um número entre 1 e 100 no campo de input
 Clique no botão "Chutar"
 Siga as dicas exibidas na tela ("O número secreto é maior/menor") até acertar
 Ao acertar, o botão Novo jogo será habilitado para reiniciar a partida
@@ -56,4 +56,4 @@ Web Speech API (síntese de voz)
 
 📚 Créditos
 
-Projeto baseado nos cursos da Alura de Lógica de Programação e Git & GitHub.
+Projeto baseado nos cursos da Alura de Lógica de Programação e Git e GitHub.
