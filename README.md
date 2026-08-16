@@ -1,6 +1,4 @@
-# secret-number-game
-
-🎯 Jogo do Número Secreto
+<h2>🎯 Jogo do Número Secreto></h2>
 
 Um jogo simples de adivinhação onde o usuário precisa descobrir um número secreto sorteado entre 1 e 100, recebendo dicas se o número informado é maior ou menor que o número correto. O jogo também conta com narração por voz utilizando a Web Speech API.
 
