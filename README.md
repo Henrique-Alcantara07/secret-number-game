@@ -1,57 +1,92 @@
-<h2>🎯 Jogo do Número Secreto</h2>
+<div align="center">
 
-Um jogo simples de adivinhação onde o usuário precisa descobrir um número secreto sorteado entre 1 e 100, recebendo dicas se o número informado é maior ou menor que o número correto. O jogo também conta com narração por voz utilizando a Web Speech API.
+# 🎯 Jogo do Número Secreto
 
-<h4>📋 Sobre o projeto</h4>
+**Descubra o número sorteado entre 1 e 100 com a ajuda de dicas e narração por voz.**
 
-Este projeto foi desenvolvido com base no curso da Alura. A lógica em JavaScript foi implementada por mim, enquanto o HTML e o CSS (estrutura e estilo visual) foram fornecidos pelo curso.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Web Speech API](https://img.shields.io/badge/Web_Speech_API-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
+</div>
 
-<h4>✨ Funcionalidades</h4>
+---
 
-Sorteio aleatório de um número secreto entre 1 e 100 (sem repetição até todos os números terem sido sorteados)
-Verificação do palpite do usuário, com dicas de "maior" ou "menor"
-Contador de tentativas até o acerto
-Narração por voz das mensagens exibidas na tela (Web Speech API)
-Botão para reiniciar o jogo com um novo número secreto
-Layout responsivo
+## 📑 Índice
 
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Como jogar](#%EF%B8%8F-como-jogar)
+- [Como executar](#-como-executar)
+- [Estrutura do projeto](#-estrutura-do-projeto)
+- [Tecnologias](#%EF%B8%8F-tecnologias)
+- [Créditos](#-créditos)
 
-<h4>🕹️ Como jogar</h4>
+---
 
-Digite um número entre 1 e 100 no campo de input
-Clique no botão "Chutar"
-Siga as dicas exibidas na tela ("O número secreto é maior/menor") até acertar
-Ao acertar, o botão Novo jogo será habilitado para reiniciar a partida
+## 📋 Sobre o projeto
 
+Um jogo de adivinhação em que o usuário precisa descobrir um número secreto sorteado entre **1 e 100**. A cada palpite, o jogo informa se o número secreto é **maior** ou **menor** que o valor digitado. As mensagens exibidas na tela também são **narradas por voz**, usando a Web Speech API.
 
-<h4>🚀 Como executar o projeto<h4>
+Este projeto foi desenvolvido com base nos cursos da **Alura**. A **lógica em JavaScript foi implementada por mim**, enquanto o **HTML e o CSS** (estrutura e estilo visual) foram fornecidos pelo curso.
 
-Clone este repositório:
+## ✨ Funcionalidades
 
-   git clone <url-do-repositorio>
+- 🎲 **Sorteio aleatório** de um número entre 1 e 100, sem repetição até que todos os números tenham sido sorteados
+- 💡 **Dicas inteligentes** de "maior" ou "menor" a cada palpite
+- 🔢 **Contador de tentativas** até o acerto
+- 🔊 **Narração por voz** das mensagens exibidas na tela (Web Speech API)
+- 🔄 **Botão de reinício** para começar uma nova partida com outro número secreto
+- 📱 **Layout responsivo**
 
-Abra o arquivo index.html em seu navegador de preferência
+## 🕹️ Como jogar
 
-Não é necessário nenhum servidor ou instalação de dependências — o projeto é 100% front-end.
+1. Digite um número entre **1 e 100** no campo de entrada
+2. Clique no botão **"Chutar"**
+3. Siga as dicas exibidas na tela (*"O número secreto é maior/menor"*) até acertar
+4. Ao acertar, o botão **"Novo jogo"** será habilitado para reiniciar a partida
 
+## 🚀 Como executar
 
-<h4>📁 Estrutura do projeto</h4>
+Não é necessário servidor nem instalação de dependências — o projeto é 100% front-end.
 
-├── index.html      # Estrutura da página
-├── style.css       # Estilização visual
-├── app.js          # Lógica do jogo (desenvolvida por mim)
-└── img/            # Imagens utilizadas no layout
+```bash
+# 1. Clone o repositório
+git clone <url-do-repositorio>
 
+# 2. Entre na pasta do projeto
+cd <nome-da-pasta>
+```
 
-<h4>🛠️ Tecnologias utilizadas</h4>
+Em seguida, abra o arquivo `index.html` no navegador de sua preferência.
 
-HTML5
-CSS3
-JavaScript (Vanilla)
-Web Speech API (síntese de voz)
+## 📁 Estrutura do projeto
 
+```text
+├── index.html    # Estrutura da página
+├── style.css     # Estilização visual
+├── app.js        # Lógica do jogo (desenvolvida por mim)
+└── img/          # Imagens utilizadas no layout
+```
 
-<h4>📚 Créditos</h4>
+## 🛠️ Tecnologias
 
-Projeto baseado nos cursos da Alura de Lógica de Programação e Git e GitHub.
+| Tecnologia | Uso no projeto |
+| --- | --- |
+| **HTML5** | Estrutura da página |
+| **CSS3** | Estilização e responsividade |
+| **JavaScript (Vanilla)** | Lógica do jogo e manipulação do DOM |
+| **Web Speech API** | Síntese de voz para narrar as mensagens |
+
+## 📚 Créditos
+
+Projeto baseado nos cursos da [Alura](https://www.alura.com.br/) de **Lógica de Programação** e **Git e GitHub**.
+
+---
+
+<div align="center">
+
+Feito com 💜 por [Seu Nome](https://github.com/seu-usuario)
+
+</div>
