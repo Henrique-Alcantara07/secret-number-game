@@ -84,9 +84,3 @@ Em seguida, abra o arquivo `index.html` no navegador de sua preferência.
 Projeto baseado nos cursos da [Alura](https://www.alura.com.br/) de **Lógica de Programação** e **Git e GitHub**.
 
 ---
-
-<div align="center">
-
-Feito com 💜 por [Seu Nome](https://github.com/seu-usuario)
-
-</div>
